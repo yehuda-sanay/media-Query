@@ -1,0 +1,105 @@
+#pac {
+    height: 100px;
+    width: 100px;
+}
+
+@media screen and (min-width: 600px){
+    #pac {
+     height: 100px;
+     width: 100px;
+ }
+}
+@media screen and (max-width:600px){
+    #pac {
+     height: 30px;
+     width: 30px;
+ }
+}
+
+#sc{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+@media screen and (min-width:600px){
+    #sc{
+        width: 100px;
+        height: 100px;
+        background-color: blue;}
+}
+@media screen and (max-width:600px){
+    #sc{
+        background-color: red;
+    }
+}
+#scr{
+    background-color: green;
+    
+}
+@media screen and (min-width:600px){
+    #scr{
+        
+        color: white;}
+}
+@media screen and (max-width:600px){
+    #scr{
+        color:yellow;}
+}
+
+
+
+@media screen and (min-width:600px){
+    #har{
+        background-image:url("har.jpg") ;
+        height: 100px;
+        height: 100px; 
+        
+        
+    }
+}
+@media screen and (max-width:600px){
+    #har{
+        background-image: url(forest1.jpg);
+        width: 100px;
+        height: 100px;
+        
+    }
+}
+#sk{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 100%;
+    background-color: blue;
+}
+@media screen (min-width:600px){
+    #sk{
+        width: 150px;
+        height: 150px;
+        border: 2px solid black;
+        border-radius: 100%;
+        background-color: blue;}
+}
+@media screen and (max-width:600px){
+    #sk{
+        border-radius: 0%;
+    }
+}
+#big{
+    width: 150px;
+    height: 150px;
+    display: flex;
+}
+@media screen and (min-width:600px){
+    #big{
+        filter: blur(100%);
+    }
+}
+@media screen and (max-width:600px){
+    #big{
+        filter: grayscale(100%);
+    }
+}
+
+     
+    
